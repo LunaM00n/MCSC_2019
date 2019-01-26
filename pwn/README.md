@@ -48,7 +48,7 @@ Description
  - Read the fl4g file
 
 Flag
- - `MCSC_2019{mM_5and_b0x_fuN_b0y}`
+ - `MCSC_2019{mM_5and_b0x_fuN_b0y_}`
 
 Setting up
  - `cd pwn200` - change directory to the challenge
